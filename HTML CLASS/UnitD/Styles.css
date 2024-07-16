@@ -1,0 +1,82 @@
+/* 
+   Lakeland Reeds Bed and Breakfast style sheet 
+   Filename: styles.css
+
+   Author: Andy Lugo   
+   Date: 3/8/2022    
+   HTML5 and CSS3 Illustrated Unit D, Lessons
+ */
+ /*Reset Styles*/
+article, body, div, footer, header, h1, h2, p {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+/* body and page container */
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   background-color: beige;
+   position: relative;
+   top: 6.2em;  
+}
+
+/* headings */
+header {
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+   background-color: darkgreen;
+   /*z-index: -1;*/
+}
+h1 {
+   padding: 0.4em;
+   color: white;
+   text-align: center;
+}
+h2 {
+   padding: 0.4em 0.6em;
+}
+p.logo {
+   padding: 0.2em;
+   border: 2px solid beige;
+   color: goldenrod;
+   position: absolute;
+   top: 2em;
+   left: 2em;
+}
+/* main content*/
+article {
+   width: 70%;
+   float: right;
+}
+article p {
+   padding: 0 1em 1em;
+}
+/* sidebar */
+aside {
+   width: 30%;
+   padding: 1em 0;
+   background-color: goldenrod;
+}
+aside p {
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   padding: 0.4em 0;
+   margin: 0 0.6em;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: white;
+   background-color: darkgreen;
+   text-align: center;
+   clear: right;
+}
+footer p {
+   margin: 0.4 em; 
+}
+footer p.accent {
+   color: goldenrod;
+}

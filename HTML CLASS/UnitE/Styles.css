@@ -1,0 +1,95 @@
+﻿/* 
+   Lakeland Reeds Bed and Breakfast style sheet 
+   Filename: styles.css
+
+   Author: Elizabeth Napoletano	  
+   Date:     3/15/2022
+   HTML5 and CSS3 Illustrated Unit E, Lessons
+ */
+
+/* reset styles */
+html {
+	font-size: 12px;
+}
+article, body, div, footer, header, h1, h2, p {
+p {
+	font-size: 1.2em;
+}
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body */
+body {
+   max-width: 640px;
+   margin: 0 auto;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   background-color: #dee9f9;
+   font-family: Tahoma, Arial, Helvetica, sans-serif;
+   box-shadow: 0 10px 6px -6px #777;
+}
+
+/* headings */
+h1, h2 {
+   padding: 0.4em;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+}
+h1 {
+   color: ivory;
+   background-color: rgb(184,148,77);
+   font-size: 3em;
+   text-shadow: 2px -1px 2px rgb(52,24,15);
+}
+h2 {
+	font-size: 2.4em;
+}
+
+/* main content */
+article {
+   background-color: ivory;
+}
+article p {
+   padding: 0 1em 1em;
+}
+article p:first-line{
+	font-weight:bold;
+}
+article p:first-letter{
+	font-size: 3em;
+	float: left;
+	line-height: 0.9em;
+}
+.title{
+	font-style:italic;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: ivory;
+   background-color: rgb(52,24,15);
+   text-align: center;
+}
+footer p {
+   margin: 0.4em;
+}
+.accent {
+	font-weight:bold;
+}
+/*Print Styles*/
+@media print {
+	body, h1, article, footer {
+		color:#000;
+		background-color: #fff;
+	}
+	body{
+		max-width: 100%;
+		border: 0;
+	}
+	@page {
+		margin: 1in;
+	}
+}

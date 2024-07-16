@@ -1,0 +1,65 @@
+﻿/* 
+   Lakeland Reeds Bed and Breakfast style sheet 
+   Filename: styles.css
+
+   Author: Elizabeth Napoletano	  
+   Date:     3/15/2022
+   HTML5 and CSS3 Illustrated Unit E, Lessons
+ */
+
+/* reset styles */
+html {
+	font-size: 12px;
+}
+article, body, div, footer, header, h1, h2, p {
+p {
+	font-size: 1.2em;
+}
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body */
+body {
+   max-width: 640px;
+   margin: 0 auto;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   background-color: aliceblue;
+   font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* headings */
+h1, h2 {
+   padding: 0.4em;
+   text-align: center;
+   font-family: Bitter, "Times New Roman", Times, serif;
+}
+h1 {
+   color: ivory;
+   background-color: darkgoldenrod;
+   font-size: 3em;
+}
+h2 {
+	font-size: 2.4em;
+}
+
+/* main content */
+article {
+   background-color: ivory;
+}
+article p {
+   padding: 0 1em 1em;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   color: ivory;
+   background-color: saddlebrown;
+   text-align: center;
+}
+footer p {
+   margin: 0.4em;
+}
